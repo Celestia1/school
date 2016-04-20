@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>I wish i was good at JS</title>
+</head>
+<body>
+<h3>Forsaml her</h3>
+
+
+<h4>del</h4>
+<form action="Choose" name="toys">
+    giveaway 1<input type="checkbox"/ >
+
+    giveaway 2<input type="checkbox"/>
+
+</form>
+
+<form action="" name="form1">
+    <input type="button" name="myButton" value="Amount" />
+    <input type="text" name="outText" value="" />
+</form>
+
+<script>
+    var myButton = document.form1.myButton;
+    var myText = document.form1.outText;
+    var numberOfClicks = 0;
+
+    function myButtonClick() {
+        numberOfClicks++;
+        myText.value = "" + numberOfClicks + "";
+    }
+
+    myButton.addEventListener("click", myButtonClick);
+</script>
+
+<h4>del 2</h4>
+<form action="" name="form2">
+    <input type="button" name="myButton2" value="Amount" />
+    <input type="text" name="outText" value="" />
+</form>
+
+<script>
+    var myButton2 = document.form2.myButton2;
+    var myText = document.form2.outText;
+    var numberOfClicks = 0;
+
+    function myButton2Click() {
+        numberOfClicks++;
+        myText.value = "" + numberOfClicks + "";
+    }
+
+    myButton2.addEventListener("click", myButton2Click);
+</script>
+
+
+
+
+
+
+</body>
+</html>
